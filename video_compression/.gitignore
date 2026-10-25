@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+.streamlit/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Uploaded and compressed video artifacts (preserve folder structure with .gitkeep)
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# System and logs
+*.log
+.DS_Store
+Thumbs.db
